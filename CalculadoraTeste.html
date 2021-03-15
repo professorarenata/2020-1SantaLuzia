@@ -1,29 +1,21 @@
-
-
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<script>
-
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
 </head>
-
 <body>
-<center><h1>Calculadora <br><br> </h1>
-  <h3>
-Digite um numero:
-<form name="form1">
-  <input type="number" name="t1"><br> <br>
-  Digite outro numero:<br>
-  <input type="number" name="t2"><br><br>
-  <input type="button" name="b1" value="+" onClick="soma(form1)">
-  <input type="button" name="b2" value="-">
-  <input type="button" name="b3" value="*">
-  <input type="button" name="b4" value="/">
-  <br><br>
-  
-</form>
-</h3>
-</center>
+  <script>
+      var n1, n2;
 
+      n1=+prompt("Informe o Primeiro Número");
+      n2=+prompt("Informe o Segundo Número");
+      alert(" A Soma entre " + n1 + " e " +n2 + " é igual a: " +(n1+n2));
+      alert(" A subtração entre " + n1 + " e " + n2 + " é igual a: " +(n1-n2));
+      alert(" A multiplicação entre " + n1 + " e " + n2 + " é igual a: " +(n1*n2));
+      alert(" A divisão entre " + n1 + " e " + n2 + " é igual a: " +(n1/n2));
+ </script>
 </body>
 </html>
